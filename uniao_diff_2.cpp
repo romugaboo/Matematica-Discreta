@@ -1,13 +1,13 @@
 #include <iostream>
 using namespace std;
-#define A 4                 //Coloque aqui o número de elementos do conjunto A
+#define A 3                 //Coloque aqui o número de elementos do conjunto A
 #define B 3                 //Coloque aqui o número de elementos do conjunto B
 
 void uniao (int a[], int b[]);
 void diff (int a[], int b[]);
 
 int main (){
-    int a[A] = {1, 2, 3, 4};   //Modifique aqui os elementos do conjunto A
+    int a[A] = {1, 2, 3};   //Modifique aqui os elementos do conjunto A
     int b[B] = {3, 4, 5};   //Modifique aqui os elementos do conjunto B
 
     cout << "Conjunto A:\n";
