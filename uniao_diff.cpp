@@ -40,16 +40,16 @@ void uniao (int a[], int b[]){
 
 void diff (int a[], int b[]){
     int i = 0, j = 0;
-    bool elem_diff;
+    bool repete;
     for (i; i < A; i++){
-        elem_diff = true;
+        repete = true;
         for (j; j < B; j++){
             if (a[i] == b[j]){
-                elem_diff = false;
+                repete = false;
                 break;
             }
         }
-        if (elem_diff == true){
+        if (repete == true){
             cout << a[i] << "\t";
         }
     }
